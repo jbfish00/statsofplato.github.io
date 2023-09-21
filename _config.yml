@@ -21,7 +21,7 @@
 title: Stats of Plato 
 email: jbrentfisher@gmail.com 
 description: "A blog by a Platonist Statistician" 
-baseurl: "/stat386-blog-theme" # the name of the repository 
+baseurl: "statsofplato.github.io" # the name of the repository 
 theme: minima
 url: "statsofplato.com"
 image: https://source.unsplash.com/random
