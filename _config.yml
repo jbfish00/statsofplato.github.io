@@ -26,7 +26,7 @@ theme: minima
 url: "statsofplato.com"
 image: https://source.unsplash.com/random
 author: JACOB B. FISHER
-copyright: ABCD # Your initials or what you want the copyright to be.  Leave empty for no copyright
+copyright: JBF # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 'The default image for the site header is a random image from 
         <a href="https://source.unsplash.com/random" target="_blank"> Unsplash</a>. 
         The default image for the blog post is from
