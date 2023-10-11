@@ -8,7 +8,9 @@ image: "assets/images/DALL·E 2023-10-11 17.16.10 - Natural language processing 
 
 ## What is a Hapax Legomenon?  
 
-*  For the many of you that aren't extraordinarily familiar with Greek, *hapax legomenon* literally means "being said once". Thus, in linguistics, a hapax legomenon is a word that is found only once within a corpus of language.   
+For the many of you that aren't extraordinarily familiar with Greek, *hapax legomenon* literally means "being said once". Thus, in linguistics, a hapax legomenon is a word that is found only once within a corpus of language.
+In linguistics, we talk about two main ways in which we can find words and their different forms: stemming and lemmatizing. When we stem, we take the parts of words that are in common (e.g. *improves* and *improving* both stem to *improv*). 
+When we lemmatize, we take the original word from which others are derived (e.g. *improved* and *improving* share the lemma *improve*). The following instructions will be a method that lemmatizes each token in the corpus, thereby allowing us to find *true* hapax legomena.
 
 *  Make the YML heading.  All pages in the site need to start with a YML heading.  For posts you should use the following header:
 
