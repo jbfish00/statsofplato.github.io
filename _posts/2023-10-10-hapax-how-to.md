@@ -67,4 +67,8 @@ for word in hapax_legomena:
     print(word)
 ```
 ## Conclusion
+While the above is simple, it can be taken further to recognize significant word usage in any collection of language. You may want to use it to look at your own writing and improve word choice. You may use it to look at significant books or religous texts. You can use additional linguistic tools such as TagAnt and ActConc or the `spacy` package in python in conjunction with this code to do more complex analysis of language. Exploring he fusion of computer science and the humanities opens you up to expansion of the mind and also the soul. 
 
+
+*“Ignorance, the root and stem of every evil.”
+― Plato*
