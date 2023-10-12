@@ -8,9 +8,7 @@ image: "assets/images/DALL·E 2023-10-11 17.16.10 - Natural language processing 
 
 ## What is a Hapax Legomenon?  
 
-For the many of you that aren't extraordinarily familiar with Greek, *hapax legomenon* literally means "being said once". Thus, in linguistics, a hapax legomenon is a word that is found only once within a corpus of language.
-In linguistics, we talk about two main ways in which we can find words and their different forms: stemming and lemmatizing. When we stem, we take the parts of words that are in common (e.g. *improves* and *improving* both stem to *improv*). 
-When we lemmatize, we take the original word from which others are derived (e.g. *improved* and *improving* share the lemma *improve*). The following instructions will not lemmmatize the corpus, so the hapax legomena found will arguably not be *true* hapax legomena, but the code can be modified to lemmatize if that is desired.
+For the many of you that aren't extraordinarily familiar with Greek, *hapax legomenon* literally means "being said once". Thus, in linguistics, a hapax legomenon is a word that is found only once within a corpus of language. Certainly, finding such words is very interesting, and that should be enough reason to want to find hapax legomena in a corpus, but practical uses exist as well for this linguistic phenomenon. Finding singly used words in a corpus can help in a great many tasks ranging from simply finding typos to more complex analyses such as semantic analysis, authorship attribution, textual dating, and personal stylometric analysis.
 
 STEP 1: Import Libraries and Load Corpus
 ---
@@ -41,13 +39,15 @@ Before we can work with our corpus, we need to tokenize it. When we tokenize usi
 ```
 orig_tokens = word_tokenize(corpus)
 ```
-For the sake of coimputation speed, we will remove all stopwords. Definitionally, stopwords are words that are incredibly common, such as articles or forms of the verb 'to be'. Since they are so common, it is very unlikely that any given corpus will have a stopword as a hapax legomenon, thus we will eliminate them from our corpus before we run any computation using it. **If you suspect that your corpus has a stopword as a hapax legomenon, skip this step.**
+For the sake of computation speed, we will remove all stopwords. Definitionally, stopwords are words that are incredibly common, such as articles or forms of the verb 'to be'. Since they are so common, it is very unlikely that any given corpus will have a stopword as a hapax legomenon, thus we will eliminate them from our corpus before we run any computation using it. **If you suspect that your corpus has a stopword as a hapax legomenon, skip this step.**
 
-We will also change all letters to lowercase so that our program will not flag words that begin a sentence only once in the corpus as a hapax legomenon.
+We will also change all letters to lowercase so that our program will not flag words that begin a sentence only once in the corpus as a hapax legomenon. Here we have also removed all punctuation tokens since we do not want to count non-word tokens as hapax legomena. 
 ```
 stop_words = set(stopwords.words('english'))
 tokens = [word.lower() for word in orig_tokens if word.isalpha() and word.lower() not in stop_words]
 ```
+In linguistics, we talk about two main ways in which we can find words and their different forms: stemming and lemmatizing. When we stem, we take the parts of words that are in common (e.g. *improves* and *improving* both stem to *improv*). 
+When we lemmatize, we take the original word from which others are derived (e.g. *improved* and *improving* share the lemma *improve*). The following instructions will not lemmmatize the corpus, so the hapax legomena found will arguably not be "true" hapax legomena, but the code can be modified to lemmatize if that is desired.
 
 STEP 3: Find and List Hapax Legomena
 ---
@@ -65,4 +65,5 @@ If we so desire, we can print out each token that is found once in the corpus wi
 for word in hapax_legomena:
     print(word)
 ```
+## Conclusion
 
