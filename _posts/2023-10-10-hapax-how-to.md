@@ -71,5 +71,5 @@ While the above is simple, it can be taken further to recognize significant word
 
 
 
-<p style="text-align: center"><em>*“Ignorance, the root and stem of every evil.”
-― Plato*</em></p>
+<p style="text-align: center"><em>“Ignorance, the root and stem of every evil.”
+― Plato</em></p>
