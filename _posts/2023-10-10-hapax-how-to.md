@@ -34,7 +34,7 @@ with open(corpus_path, 'r', encoding='utf-8') as file:
 
 STEP 2: Data Preparation
 ---
-Before we can do anything useful with our corpus, we need to tokenize it. When we tokenize using the `word_tokenize` funciton, we get each word and all punctuation as a separate tokens. 
+Before we can do anything useful with our corpus, we need to tokenize it. When we tokenize using the `word_tokenize` function, we get each word and all punctuation as a separate tokens. 
 
 ```
 orig_tokens = word_tokenize(corpus)
@@ -47,8 +47,8 @@ stop_words = set(stopwords.words('english'))
 tokens = [word.lower() for word in orig_tokens if word.isalpha() and word.lower() not in stop_words]
 ```
 
-* In linguistics, we talk about two main ways in which we can find words and their different forms: stemming and lemmatizing. When we stem, we take the parts of words that are in common (e.g. *improves* and *improving* both stem to *improv*). When we lemmatize, we take the original word from which others are derived (e.g. *improved* and *improving* share the lemma *improve*). The following instructions will not lemmmatize the corpus, so the hapax legomena found will arguably not be "true" hapax legomena, but the code can be modified to lemmatize if that is desired.
-* Importantly, using the default lemmatizer in `nltk` requires you to define what the part of speech you are lemmatizing for, so multiple interations must be gone through to lemmatize all words in the corpus. The `spacy` package does not allow for stemming, but has a more robust lemmatizing function.
+* In linguistics, we talk about two main ways in which we can find words and their different forms: stemming and lemmatizing. When we stem, we take the parts of words that are in common (e.g. *improves* and *improving* both stem to *improv*). When we lemmatize, we take the original word from which others are derived (e.g. *improved* and *improving* share the lemma *improve*). The following instructions will not lemmatize the corpus, so the hapax legomena found will arguably not be "true" hapax legomena, but the code can be modified to lemmatize if that is desired.
+* Importantly, using the default lemmatizer in `nltk` requires you to define what the part of speech you are lemmatizing for, so multiple iterations must be gone through to lemmatize all words in the corpus. The `spacy` package does not allow for stemming, but has a more robust lemmatizing function.
 
 STEP 3: Find and List Hapax Legomena
 ---
@@ -67,7 +67,7 @@ for word in hapax_legomena:
     print(word)
 ```
 ## Conclusion
-While the above is simple, it can be taken further to recognize significant word usage in any collection of language. You may want to use it to look at your own writing and improve word choice. You may use it to look at significant books or religous texts. You can use additional linguistic tools such as TagAnt and ActConc or the `spacy` package in python in conjunction with this code to do more complex analysis of language. Exploring he fusion of computer science and the humanities opens you up to expansion of the mind and also the soul. 
+While the above is simple, it can be taken further to recognize significant word usage in any collection of language. You may want to use it to look at your own writing and improve word choice. You may use it to look at significant books or religious texts. You can use additional linguistic tools such as TagAnt and ActConc or the `spacy` package in python in conjunction with this code to do more complex analysis of language. Exploring the fusion of computer science and the humanities opens you up to expansion of the mind and also the soul. 
 
 
 *“Ignorance, the root and stem of every evil.”
