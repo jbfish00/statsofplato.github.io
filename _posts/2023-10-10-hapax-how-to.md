@@ -49,7 +49,7 @@ stop_words = set(stopwords.words('english'))
 tokens = [word.lower() for word in orig_tokens if word.isalpha() and word.lower() not in stop_words]
 ```
 
-* In linguistics, we talk about two main ways in which we can find words and their different forms: stemming and lemmatizing. When we stem, we take the parts of words that are in common (e.g. *improves* and *improving* both stem to *improv*). When we lemmatize, we take the original word from which others are derived (e.g. *improved* and *improving* share the lemma *improve*). The following instructions will not lemmatize the corpus, so the hapaxes found will arguably not be "true" hapax legomena, but the code can be modified to lemmatize if that is desired.
+* In linguistics, we talk about two main ways in which we can find words and their different forms: stemming and lemmatizing. When we stem, we take the parts of words that are in common (e.g. *improves* and *improving* both stem to *improv*). When we lemmatize, we take the original word from which others are derived (e.g. *improved* and *improving* share the lemma *improve*). The above code will not lemmatize the corpus, so the hapaxes found will arguably not be "true" hapax legomena, but the code can be modified to lemmatize if that is desired.
 * Importantly, using the default lemmatizer in `nltk` requires you to define what the part of speech you are lemmatizing for, so multiple iterations must be gone through to lemmatize all words in the corpus. The `spacy` package does not allow for stemming, but has a more robust lemmatizing function.
 
 STEP 3: Find and List All Hapax Legomena
