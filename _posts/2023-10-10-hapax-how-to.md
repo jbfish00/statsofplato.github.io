@@ -43,7 +43,7 @@ For the sake of computation speed, we will remove all stopwords. Definitionally,
 
 We will also change all letters to lowercase so that our program will not flag words that begin a sentence only once in the corpus as a hapax. Here we have also removed all punctuation tokens since we do not want to count non-word tokens as hapaxes. 
 
-Here we use a list comprehension to alter the tokens all at once. We take each token in our set of original tokens and make it lowercase and place it in our new list `tokens` if it (1) is a word, determined with `isalpha` and (2) the lowercase version of the word is not in our set of stopwords, here named `stop_words`.
+Here we use a list comprehension to alter the tokens all at once. We take each token in our set of original tokens and make it lowercase and place it in our new list `tokens` if it (1) is a word, determined with the `isalpha` function and (2) the lowercase version of the word is not in our set of stopwords, here named `stop_words`.
 ```
 stop_words = set(stopwords.words('english'))
 tokens = [word.lower() for word in orig_tokens if word.isalpha() and word.lower() not in stop_words]
