@@ -3,7 +3,7 @@ layout: post
 title:  "Classic Fiction of the World"
 author: Jacob B. Fisher
 description: "Insights on the Top 500 Novels" 
-image: ""
+image: "assets/images/20231207_165243.jpg"
 ---
 # Introduction
 
