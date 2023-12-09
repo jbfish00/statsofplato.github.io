@@ -39,7 +39,7 @@ Before scraping, I checked the robots.txt files. In addition, since I was scrapi
 
 
 # Conclusion
-There it is. All done. For the code to reproduce the dataset or to find the dataset I created, (visit my GitHub repository)[https://github.com/jbfish00/classic_lit]. Stay tuned for further analysis of this data so that your mind and soul may be expanded.
+There it is. All done. For the code to reproduce the dataset or to find the dataset I created, [visit my GitHub repository](https://github.com/jbfish00/classic_lit). Stay tuned for further analysis of this data so that your mind and soul may be expanded.
 
 <p style="text-align: center"><em>“Ignorance, the root and stem of every evil.”
 ― Plato</em></p>
