@@ -18,8 +18,16 @@ In this post, we will explore that data visually to see if we can answer questio
 
 ## Visualizations
 
-![Map]({{site.url}}/{{site.baseurl}}/assets/lit_EDA/Map_plot.png)
 ![Map](/statsofplato.github.io/assets/lit_EDA/Map_plot.png)
+![Bestsellers by Country](/statsofplato.github.io/assets/Bestsellers by country.png)
+![Country with best rank](/statsofplato.github.io/assets/lit_EDA/Country with best rank.png)
+
+
+![Top Authors](/statsofplato.github.io/assets/Top authors.png)
+![Rank and Author](/statsofplato.github.io/assets/Rank distribution boxplot Top 10 Authors.png)
+
+![Rank Genre Boxplot](/statsofplato.github.io/assets/lit_EDA/Rank genre boxplots.png)
+![Genre by Decade](/statsofplato.github.io/assets/books_by_genre_by_decade.png)
 
 
 ## Summary
