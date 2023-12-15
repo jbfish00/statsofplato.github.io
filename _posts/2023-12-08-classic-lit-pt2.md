@@ -19,6 +19,7 @@ In this post, we will explore that data visually to see if we can answer questio
 ## Visualizations
 
 ![Map]({{site.url}}/{{site.baseurl}}/assets/lit_EDA/Map_plot.png)
+![Map](/statsofplato.github.io/assets/lit_EDA/Map_plot.png)
 
 
 ## Summary
