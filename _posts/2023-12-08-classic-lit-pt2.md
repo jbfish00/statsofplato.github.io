@@ -19,7 +19,6 @@ In this post, we will explore that data visually to see if we can answer questio
 # Visualizations
 
 ## Country Data
-# Countries and Their Ranks in Literature:
 
 I wanted to illustrate countries and their best ranked book that they produced. A scatter plot seems like an odd choice, but I couldn't figure out any better way to show this. Despite the simplicity of this graph, a lot of information is packed in it. Of course we see each country and the best rank one of their books achieves, but in this we see which countries dominate certain intervals of the ranking system. 
 
@@ -27,13 +26,13 @@ For example, since Russia's best book is ranked 22, that means that the three co
 
 ![Country with best rank](/statsofplato.github.io/assets/lit_EDA/Country_with_best_rank.png)
 
-# Mapping Literary Proliferation:
+### Mapping Literary Proliferation:
 
 The impetus for this project was to get a macro view of great world fiction. The below choropleth map highlights the global distribution of literary works. Note that the scale here is a log scale to better distinguish differences between countries on the lower end of the scale. The United States, Britain, France, Russia, Germany, and Canada each stand out as producing a higher number of books on this top 500 list. This visualization not only illustrates the concentration of literary production in these regions but also raises questions about the factors contributing to such disparities. This and other visuals we will see later caused me to ponder on possible language bias in the data. WorldCat claims that its list consolidates lists of libraries around the world, though it isn't hard to imagine most of their data still coming from libraries in the United States.
 
 ![Map](/statsofplato.github.io/assets/lit_EDA/Map_plot.png)
 
-# Bestsellers by Country:
+### Bestsellers by Country:
 
 When looking at all bestseller data, it is important to keep in mind that the term "bestseller" is determined solely on whether or not it was on Wikipedia's bestseller list. I noted in my previous post that Wikipedia acknowledges that some books may have sold tens of millions of copies, but because they have no reliable data, those books are omitted. These include such books as *The Lord of the Rings* trilogy. Thus most books that are classified as bestsellers are more modern.  
 
@@ -46,7 +45,7 @@ The United States and the United Kingdom take the lead by a significant margin, 
 
 In the realm of literature, the names of certain authors are recurrently echoed with reverence. But, what distinguishes these literary titans from their peers? Through the lenses of data visualization, we can glean insights into the prolificacy and prominence of the top authors in fiction.
 
-# Prolificacy and Literary Dominance:
+### Prolificacy and Literary Dominance:
 
 Turning to a bar graph illustrating the number of books by the top 10 most prolific authors, we observe the sheer volume of output as a metric of literary dominance. John Grisham and Charles Dickens stand tall, their bars soaring high, indicative of their extensive bibliographies. The problem here is, I have never heard of John Grisham, and I have only every heard of a single one of his books, *The Pelican Brief*. So let us turn to a comaprison of author's book's ranks.
 
