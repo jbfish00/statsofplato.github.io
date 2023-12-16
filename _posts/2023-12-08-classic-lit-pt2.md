@@ -73,7 +73,7 @@ This boxplot of ranks is far different from our author-rank comparison. The vast
 
 
 # Conclusion
-This is just a sampling of the different way one could visualize this data. If you would like to play around with the data yourself, here is a link to [my GitHub Repository](https://github.com/jbfish00/classic_lit) where the data and code can be found. While you're at it, check out my [interactive dashboard](insert link) which has some pre-made graphs to visualize the data in different ways.
+This is just a sampling of the different way one could visualize this data. If you would like to play around with the data yourself, here is a link to [my GitHub Repository](https://github.com/jbfish00/classic_lit) where the data and code can be found. While you're at it, check out my [interactive dashboard](https://platolit.streamlit.app/) which has some pre-made graphs to visualize the data in different ways.
 
 <p style="text-align: center"><em>“Ignorance, the root and stem of every evil.”
 ― Plato</em></p>
