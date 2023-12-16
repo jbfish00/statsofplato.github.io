@@ -42,9 +42,31 @@ The United States and the United Kingdom take the lead by a significant margin, 
 ![Bestsellers by Country](/statsofplato.github.io/assets/lit_EDA/Bestsellers_by_country.png)
 
 
+# Author Data
+
+In the realm of literature, the names of certain authors are recurrently echoed with reverence. But, what distinguishes these literary titans from their peers? Through the lenses of data visualization, we can glean insights into the prolificacy and prominence of the top authors in fiction.
+
+The Varied Heights of Literary Prominence:
+
+A boxplot showcasing the rank distribution among the top 10 authors reveals a fascinating diversity in their critical acclaim. The 'Rank' reflects a book's position on a list of bestsellers, with a lower rank signifying higher prestige. The spread of the boxes and whiskers illustrates the variability of an author's oeuvre in capturing the zeitgeist of their times. For instance, Charles Dickens and J.R.R. Tolkien display a tight clustering of ranks, indicating a consistent high performance across their publications. In contrast, other authors like Stephen King exhibit a broader spread, suggesting a range of ranks and perhaps a more diverse reception to their works. Outliers, as seen in the plot, may represent works that broke through the typical boundaries, either soaring to exceptional heights or not quite reaching the usual marks of success.
+
+Prolificacy and Literary Dominance:
+
+Turning to a bar graph illustrating the number of books by the top 10 most prolific authors, we observe the sheer volume of output as a metric of literary dominance. John Grisham and Charles Dickens stand tall, their bars soaring high, indicative of their extensive bibliographies. The problem here is, I have never heard of John Grisham, and I have only every heard of a single one of his books, *The Pelican Brief*. So let us turn to a comaprison of author's book's ranks.
 
 ![Top Authors](/statsofplato.github.io/assets/lit_EDA/Top_authors.png)
+
+Here we see a much more expected picture. Dickens at the top. I do have a great bias towards Dickens as I read *A Christmas Carol* twice a year and many of his other books are among my favorite books of all time. If we but compare Dickens and Grisham, we see that Dickens wrote more books of higher rank than Grisham. Dickens' worst book is at Grisham's median ranked book, while Grisham's best doesn't even make it to Dickens' median. 
+
+Another item of note is that the four British authors on the list are within the top five of this graph. This does seem to indicate a sort of continued British dominance over all other countries, including the United States, in literature worldwide. 
+
 ![Rank and Author](/statsofplato.github.io/assets/lit_EDA/Rank_distribution_boxplot_Top_10_Authors.png)
+
+These visualizations prompt deeper inquiry into the nature of literary success. Does quantity beget quality, or is it the enduring resonance of a single masterpiece that cements an author's place in the pantheon of greats? You don't know all of Dickens' works, but you may better know some of them due to the success granted him by titles such as *A Christmas Carol*, *Great Expectations*, and *A Tale of Two Cities*. The ranks do seem to indicate that a single work can elevate an author to greatness, regardless of their productivity.
+
+# Genre Data
+
+Before we look at genre, I offer another disclaimer. Not all books in our data had an assigned genre. Those that did not are disignated as general fiction, so most books will be of that genre in the data. Nevertheless, we can still glean insights from the below visualizations. 
 
 ![Rank Genre Boxplot](/statsofplato.github.io/assets/lit_EDA/Rank_genre_boxplots.png)
 ![Genre by Decade](/statsofplato.github.io/assets/lit_EDA/books_by_genre_by_decade.png)
