@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Classic Fiction of the World: Data Visualizations (IN PROGRESS)"
+title:  "Classic Fiction of the World: Data Visualizations"
 author: Jacob B. Fisher
 description: "Insights on the Top 500 Novels" 
 image: "assets/images/Plato Among Books.png"
