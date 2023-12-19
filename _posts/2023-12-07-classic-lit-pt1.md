@@ -33,9 +33,7 @@ Text data is not fun to clean. Titles of books are not consistent between all pe
 
 All this is to say that cleaning these data so that the dataframes can merge on "Title" took longer than expected, and it required a lot of individual cases to make it work right. Surprisingly and thankfully, no problems occured with any other variables in the data across the three data sources. The main cleaning done was making the titles all lower-case, eliminating the word "the" from the beginning of titles, were the main things that had to be done to ensure as few specific cases needed to be addressed as possible.
 
-<p align="center">
-  ![df_sample](assets/df_sample.png)
-</p>
+![df_sample](assets/df_sample.png)
 
 
 # Ethical Considerations
