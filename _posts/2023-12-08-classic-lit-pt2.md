@@ -11,9 +11,9 @@ Welcome to part 2 of our exploration through classic fiction of the world! In ou
 
 In this post, we will explore that data visually to see if we can answer questions such as:
 
--Where are the most popular books in the world from?
--When were these books written?
--Who are the most prolific authors of the books that are considered classics?
+- Where are the most popular books in the world from?
+- When were these books written?
+- Who are the most prolific authors of the books that are considered classics?
 
 
 # Visualizations
