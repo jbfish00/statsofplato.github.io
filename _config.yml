@@ -24,7 +24,7 @@ description: "A blog by a Platonist Statistician"
 baseurl: "statsofplato.github.io" # the name of the repository 
 theme: minima
 url: "statsofplato.com"
-image: "/statsofplato.github.io/assets/images/The_School_of_Athens__by_Raffaello_Sanzio_da_Urbino.jpg"
+image: "/statsofplato.github.io/assets/images/School_of_Athens.jpg"
 author: JACOB B. FISHER
 copyright: JBF # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 
